@@ -1,0 +1,14 @@
+class Solution:
+    def runningSum(self, nums: List[int]) -> List[int]:
+        l=[]
+        for i in range(len(nums)):
+            if(i==1):
+                n=nums[i]+nums[i-1]
+                l.append(n)
+            elif(i==0):
+                l.append(nums[i])
+            else:
+                n=l[i-1]+nums[i]
+                l.append(n)
+        return l
+        
