@@ -1,2 +1,2 @@
 # Leetcode
-This contains leetcode problems.
+This contains leetcode problems solution.
